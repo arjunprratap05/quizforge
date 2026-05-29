@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { prisma } from "@/lib/prisma";
-import CourseForm from "../../../course-form";
+import CourseForm from "../../course-form";
 
 type EditCoursePageProps = {
   params: Promise<{
